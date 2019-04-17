@@ -1,0 +1,51 @@
+Total available Semaphore permits : 2
+A : Verificando semaforos...
+B : Verificando semaforos...
+B : permissoes disponiveis: 2
+D : Verificando semaforos...
+B : usando um semaforo
+A : permissoes disponiveis: 1
+A : usando um semaforo
+E : Verificando semaforos...
+D : permissoes disponiveis: 1
+E : permissoes disponiveis: 0
+A : executando 1, permissoes disponiveis : 0
+C : Verificando semaforos...
+B : executando 1, permissoes disponiveis : 1
+C : permissoes disponiveis: 0
+B : executando 2, permissoes disponiveis : 0
+A : executando 2, permissoes disponiveis : 0
+B : executando 3, permissoes disponiveis : 0
+A : executando 3, permissoes disponiveis : 0
+A : executando 4, permissoes disponiveis : 0
+B : executando 4, permissoes disponiveis : 0
+A : executando 5, permissoes disponiveis : 0
+B : executando 5, permissoes disponiveis : 0
+B : liberando permissao...
+A : liberando permissao...
+B : total de permissoes disponiveis agora: 1
+E : usando um semaforo
+A : total de permissoes disponiveis agora: 1
+D : usando um semaforo
+E : executando 1, permissoes disponiveis : 0
+D : executando 1, permissoes disponiveis : 0
+D : executando 2, permissoes disponiveis : 0
+E : executando 2, permissoes disponiveis : 0
+D : executando 3, permissoes disponiveis : 0
+E : executando 3, permissoes disponiveis : 0
+E : executando 4, permissoes disponiveis : 0
+D : executando 4, permissoes disponiveis : 0
+E : executando 5, permissoes disponiveis : 0
+D : executando 5, permissoes disponiveis : 0
+E : liberando permissao...
+D : liberando permissao...
+C : usando um semaforo
+E : total de permissoes disponiveis agora: 1
+C : executando 1, permissoes disponiveis : 1
+D : total de permissoes disponiveis agora: 1
+C : executando 2, permissoes disponiveis : 1
+C : executando 3, permissoes disponiveis : 1
+C : executando 4, permissoes disponiveis : 1
+C : executando 5, permissoes disponiveis : 1
+C : liberando permissao...
+C : total de permissoes disponiveis agora: 2
