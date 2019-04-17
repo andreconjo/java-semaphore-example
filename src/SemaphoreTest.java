@@ -3,7 +3,6 @@ import java.util.concurrent.Semaphore;
 
 public class SemaphoreTest {
 
-	// max 4 people
 	static Semaphore semaphore = new Semaphore(2);
 
 	static class MyATMThread extends Thread {
@@ -34,14 +33,12 @@ public class SemaphoreTest {
 								+ ", permissoes disponiveis : "
 								+ semaphore.availablePermits());
 
-						// sleep 1 second
 						Thread.sleep(1000);
 
 					}
 
 				} finally {
 
-					// calling release() after a successful acquire()
 					System.out.println(name + " : liberando permissao...");
 					semaphore.release();
 					System.out.println(name + " : total de permissoes disponiveis agora: " 
@@ -61,7 +58,7 @@ public class SemaphoreTest {
 
 	public static void main(String[] args) {
 
-		System.out.println("Total available Semaphore permits : " 
+		System.out.println("Total de permissoes : " 
 				+ semaphore.availablePermits());
 	
 		MyATMThread t1 = new MyATMThread("A");
